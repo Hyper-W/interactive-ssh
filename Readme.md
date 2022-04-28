@@ -10,6 +10,7 @@ Created to reduce profiles for ssh in Windows Terminal.
 
 Requirements
 
+- ssh
 - git
 - grep(GNU grep)
 - cut(GNU coreutils)
@@ -17,6 +18,8 @@ Requirements
 
 ```bash
 git clone https://github.com/Hyper-W/interactive-ssh.git
+
+cd interactive-ssh
 
 chmod a+xr ./Bash/interactive-ssh.sh
 
@@ -29,11 +32,14 @@ interactive-ssh
 
 Requirements
 
+- ssh
 - git
 - powershell or pwsh
 
 ```PowerShell
 git clone https://github.com/Hyper-W/interactive-ssh.git
+
+cd interactive-ssh
 ```
 
 #### GUI
@@ -42,16 +48,18 @@ git clone https://github.com/Hyper-W/interactive-ssh.git
 explorer.exe .\PowerShell
 ```
 
-If you want to use it with `powershell`, double click on `interactive-ssh.bat`.
+If you want to use it with `powershell.exe`, double click on `interactive-ssh.bat`.
 
-If you want to use it with `pwsh`, double click on `interactive-ssh-pwsh.bat`.
+If you want to use it with `pwsh.exe`, double click on `interactive-ssh-pwsh.bat`.
 
 #### CLI
 
 ```PowerShell
 powershell.exe -ExecutionPolicy Unrestricted -File ".\interactive-ssh.ps1" # PowerShell
 
-pwsh.exe ".\interactive-ssh.ps1" # Pwsh
+pwsh.exe -File ".\interactive-ssh.ps1" # Pwsh
+
+pwsh -File "./interactive-ssh.ps1" # Pwsh on Linux
 ```
 
 ### Windows Terminal Profile
