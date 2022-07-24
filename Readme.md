@@ -88,7 +88,7 @@ Running the added profile will execute `interactive-ssh`.
             {
                 "commandline": "powershell.exe -ExecutionPolicy Unrestricted -File ${CLONE_PATH}\\PowerShell\\interactive-ssh.ps1",
                 "guid": "{${YOUR_GUID}}",
-                "hidden": true,
+                "hidden": false,
                 "icon": "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png",
                 "name": "SSH"
             }
@@ -100,7 +100,7 @@ Running the added profile will execute `interactive-ssh`.
             {
                 "commandline": "pwsh.exe -File ${CLONE_PATH}\\PowerShell\\interactive-ssh.ps1",
                 "guid": "{${YOUR_GUID}}",
-                "hidden": true,
+                "hidden": false,
                 "icon": "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png",
                 "name": "SSH"
             }
